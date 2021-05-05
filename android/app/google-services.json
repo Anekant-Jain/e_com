@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "141773752020",
+    "project_id": "e-com-ecadb",
+    "storage_bucket": "e-com-ecadb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141773752020:android:6528059ab3f2ece7a19d41",
+        "android_client_info": {
+          "package_name": "phoenix.co.e_com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141773752020-8hjh4jm9tefhugef9tb0q258cjldm5pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeP-c_9BbXKCU3r_5UXN2fSmdmim_QmaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141773752020-8hjh4jm9tefhugef9tb0q258cjldm5pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
