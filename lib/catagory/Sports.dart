@@ -41,12 +41,12 @@ class _SportsState extends State<Sports> {
                     padding: EdgeInsets.all(0),
                     child: Column(
                         children: <Widget>[
-                          Image.network(
-                            'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball.png/170px-Basketball.png',
+                          Image.asset(
+                            'basketball.png',
                             width: 250.0,
                             height: 250.0,
                           ),
-                          SizedBox(height: 7.5,),
+                          SizedBox(height: 17.5,),
                           Text(
                             "Basket Ball",
                             style: TextStyle(
@@ -63,15 +63,7 @@ class _SportsState extends State<Sports> {
                             ),
                             textAlign: TextAlign.left,
                           ),
-                          Text(
-                            "Description: Suitable for Age 5+.",
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              color: Colors.white,
-                              fontStyle: FontStyle.italic,
-                            ),
-                            textAlign: TextAlign.left,
-                          ),
+
                         ]
                     ),
                   )
@@ -91,12 +83,12 @@ class _SportsState extends State<Sports> {
                     padding: EdgeInsets.all(0),
                     child: Column(
                         children: <Widget>[
-                          Image.network(
-                            'https://pngimg.com/uploads/football/football_PNG52781.png',
+                          Image.asset(
+                            'football.png',
                             width: 250.0,
                             height: 250.0,
                           ),
-                          SizedBox(height: 7.5,),
+                          SizedBox(height: 17.5,),
                           Text(
                             "Football",
                             style: TextStyle(
@@ -113,15 +105,7 @@ class _SportsState extends State<Sports> {
                             ),
                             textAlign: TextAlign.left,
                           ),
-                          Text(
-                            "Description: Suitable for Ages 11+.",
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              color: Colors.white,
-                              fontStyle: FontStyle.italic,
-                            ),
-                            textAlign: TextAlign.left,
-                          ),
+
                         ]
                     ),
                   )
@@ -140,12 +124,12 @@ class _SportsState extends State<Sports> {
                     padding: EdgeInsets.all(0),
                     child: Column(
                         children: <Widget>[
-                          Image.network(
-                            'https://lh3.googleusercontent.com/proxy/41BR1bJKIkGEGtekgOpV9XI_lOPTxymYPyj0VWLtPXZS93NbWNYa0cgViXIHDZeeBkNYrN4viqUmUAXe701wgs6kdmoq06cYAJRf4VVGpFj4xLA9ngSCXNkl6VNG9mIkcY_LXg',
+                          Image.asset(
+                            'cbat.png',
                             width: 250.0,
                             height: 250.0,
                           ),
-                          SizedBox(height: 7.5,),
+                          SizedBox(height: 17.5,),
                           Text(
                             "Cricket Bat and Ball",
                             style: TextStyle(
@@ -162,15 +146,7 @@ class _SportsState extends State<Sports> {
                             ),
                             textAlign: TextAlign.left,
                           ),
-                          Text(
-                            "Description: Strong and Durable.",
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              color: Colors.white,
-                              fontStyle: FontStyle.italic,
-                            ),
-                            textAlign: TextAlign.left,
-                          ),
+
                         ]
                     ),
                   )

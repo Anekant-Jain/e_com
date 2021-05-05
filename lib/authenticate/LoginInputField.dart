@@ -1,5 +1,6 @@
 
 import 'package:e_com/authenticate/RegisterPage.dart';
+import 'package:e_com/home/home.dart';
 import 'package:e_com/services/auth.dart';
 import 'package:flutter/material.dart';
 
@@ -102,20 +103,13 @@ class _LoginButtonState extends State<LoginButton> {
       child: Center(
         child: FlatButton(
           onPressed: () async {
-            print("PRESSED");
-            if(_formKey.currentState.validate()){
-              dynamic result = await _auth.signInWithEmailAndPassword(email, password);
-              if(result == null) {
-                setState(() {
-                  error = 'Could not sign in with those credentials';
-                });
-              }
-            }
-          },
-          child: Text(
-              'LOGIN'
-          ),
-        ),
+            Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Home())
+            );
+            child: Text('LOGIN');
+
+          }),
       ),
     );
   }

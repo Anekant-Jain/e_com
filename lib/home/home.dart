@@ -54,12 +54,12 @@ class _HomeState extends State<Home> {
                         padding: EdgeInsets.all(0),
                         child: Column(
                          children: <Widget>[
-                           Image.network(
-                               'https://www.freepnglogos.com/uploads/t-shirt-png/t-shirt-png-black-shirt-png-transparent-image-pngpix-2.png',
+                           Image.asset(
+                               'blackT.png',
                                 width: 130.0,
                                 height: 130.0,
                            ),
-                           SizedBox(height: 7.5,),
+                           SizedBox(height: 0,),
                            Text(
                                "Clothing",
                                 style: TextStyle(
@@ -86,8 +86,8 @@ class _HomeState extends State<Home> {
                           );
                         },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                            'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball.png/170px-Basketball.png',
+                        child: Image.asset(
+                            'basketball.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -116,8 +116,8 @@ class _HomeState extends State<Home> {
                           );
                         },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://lh3.googleusercontent.com/proxy/hB7AM0hNtLFgeXi4zf_epECvQ27bRahyc-GtBbhEZX5hmtZtbF0ZhkKBJoMLZXsos_cQhurEQvoTOoVz90VUe5uHcndc32tSP1oBIksppET0LLVuLJUeFKPTvtZ8ncxZ',
+                        child: Image.asset(
+                          'grocery.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -146,8 +146,8 @@ class _HomeState extends State<Home> {
                           );
                         },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://lh3.googleusercontent.com/proxy/JVgPKKI57-mTlzJrohrKwAUb24G9vzEQmQDjGRKu82OFaGowCZlqJdjVKEhCfviHgamCyl0a4ZdvcNDd9exuXMVzhjcLADF2cZYz3M5LM73CZ8Au385_iWX5',
+                        child: Image.asset(
+                          'mobile.jpg',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -176,8 +176,8 @@ class _HomeState extends State<Home> {
                       );
                       },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://i.pinimg.com/originals/8b/ed/07/8bed07b0525de6c40cec2fd811fa783c.png',
+                        child: Image.asset(
+                          'laptop.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -206,8 +206,8 @@ class _HomeState extends State<Home> {
                       );
                         },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://lh3.googleusercontent.com/proxy/k30BZd0Q16aVjx8484EOSH02rDmiHuTrtyxJGrIfXlJ1hGJb-uiZ_TxyZ1ZdHKpnITW2gzS5qbnSIzG6SxsrSh7sOkgKBmGyaCxFPrYGij8tr_aOKN5wLb_-uwFzMWOm8IBObpPtm4Y',
+                        child: Image.asset(
+                          'vegetable.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -236,8 +236,8 @@ class _HomeState extends State<Home> {
                           );
                         },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://lh3.googleusercontent.com/proxy/MXX-QsxQxfqJprjRjaLVTSIF3-MPjn6RSJBTjCB8GrAY-GcPeAojS-_pHAF_mdGAHgBWVCrrD68BHUfIZZJJWY5SaIz5CqBcfHBG3CYawe4e3BA0BStgtTsKs1-_0g',
+                        child: Image.asset(
+                          'watch.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -266,8 +266,8 @@ class _HomeState extends State<Home> {
                       );
                       },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://www.pngfind.com/pngs/m/135-1353973_paper-office-supplies-file-folders-stationary-transprent-stationery.png',
+                        child: Image.asset(
+                          'stationary.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -296,8 +296,8 @@ class _HomeState extends State<Home> {
                           );
                           },
                         padding: EdgeInsets.all(10),
-                        child: Image.network(
-                          'https://lh3.googleusercontent.com/proxy/9LzmyR8G4iqfhKemaTCm1utvcjwywc97G0TB0CMda2F99_YwJEl7KW8TFVfA5wQV4ZTkbSoStPBLXP_BFSRFyXL15epujhUa2A6jhHD_JMimNRconUWZZ0tSqe6K1Lxu50FtwB9RQ-sh',
+                        child: Image.asset(
+                          'toys.png',
                           width: 130.0,
                           height: 130.0,
                         ),
@@ -315,14 +315,8 @@ class _HomeState extends State<Home> {
               ),
             ]
       ),
-
-
-
-
-
-
         bottomNavigationBar: BottomAppBar(
-          color: Colors.white,
+          color: Colors.white
 
         ) ,
       ),
