@@ -1,3 +1,4 @@
+import 'package:e_com/home/booking.dart';
 import 'package:flutter/material.dart';
 
 class Product extends StatefulWidget {
@@ -49,13 +50,26 @@ class _ProductState extends State<Product> {
               textAlign: TextAlign.left,
             ),
             SizedBox(height: 25,),
-            RaisedButton(
-              onPressed: () {} ,
-              color: Colors.green[800],
-              child: Text(
-                "BUY",
-              )
-            ),
+            SizedBox(
+              height: 40,
+              width: 280,
+              child: RaisedButton(
+                  onPressed: () async{
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Booking())
+                    );
+
+                  } ,
+                  color: Colors.green[800],
+                  child: Text(
+                    "BUY",
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  )
+              ),
+            )
           ],
         ),
       )

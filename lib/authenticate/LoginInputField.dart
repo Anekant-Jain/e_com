@@ -98,7 +98,6 @@ class _LoginButtonState extends State<LoginButton> {
           Colors.grey[700],
           Colors.grey[800]
         ]),
-        borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
         child: FlatButton(
@@ -107,11 +106,18 @@ class _LoginButtonState extends State<LoginButton> {
                 context,
                 MaterialPageRoute(builder: (context) => Home())
             );
-            child: Text('LOGIN');
-
-          }),
-      ),
+                },
+            child: Text(
+                'LOGIN',
+              style: TextStyle(
+                  color: Colors.white,
+                      fontSize: 16,
+              ),
+            ),
+            )
+    )
     );
+
   }
 }
 class RPButton extends StatefulWidget{
@@ -129,11 +135,10 @@ class _RPButtonState extends State<RPButton> {
       margin: EdgeInsets.symmetric(horizontal: 50),
       decoration: BoxDecoration(
         gradient: LinearGradient(begin: Alignment.topLeft, colors: [
-          Colors.grey[800],
-          Colors.grey[700],
-          Colors.grey[800]
+          Colors.grey[600],
+          Colors.grey[500],
+          Colors.grey[600]
         ]),
-        borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
         child: FlatButton(
@@ -144,7 +149,11 @@ class _RPButtonState extends State<RPButton> {
             );
           },
           child: Text(
-              'REGISTER'
+              'REGISTER',
+            style: TextStyle(
+                color: Colors.white,
+              fontSize: 16,
+            ),
           ),
         ),
       ),

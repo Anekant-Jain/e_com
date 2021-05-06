@@ -1,3 +1,4 @@
+import 'package:e_com/item/product.dart';
 import 'package:flutter/material.dart';
 
 import 'Clothing.dart';
@@ -35,7 +36,7 @@ class _SportsState extends State<Sports> {
                     onPressed: () async {
                       Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Clothing())
+                          MaterialPageRoute(builder: (context) => Product())
                       );
                     },
                     padding: EdgeInsets.all(0),
@@ -77,7 +78,7 @@ class _SportsState extends State<Sports> {
                     onPressed: () async {
                       Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Clothing())
+                          MaterialPageRoute(builder: (context) => Product())
                       );
                     },
                     padding: EdgeInsets.all(0),
@@ -118,7 +119,7 @@ class _SportsState extends State<Sports> {
                     onPressed: () async {
                       Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Clothing())
+                          MaterialPageRoute(builder: (context) => Product())
                       );
                     },
                     padding: EdgeInsets.all(0),

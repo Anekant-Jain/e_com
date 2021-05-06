@@ -97,7 +97,6 @@ class _RegisterButtonState extends State<RegisterButton> {
           Colors.grey[700],
           Colors.grey[800]
         ]),
-        borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
         child: FlatButton(
@@ -113,7 +112,11 @@ class _RegisterButtonState extends State<RegisterButton> {
             }
           },
           child: Text(
-              'REGISTER'
+              'REGISTER',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 16,
+            ),
           ),
         ),
       ),
@@ -136,11 +139,10 @@ class _LPButtonState extends State<LPButton> {
       margin: EdgeInsets.symmetric(horizontal: 50),
       decoration: BoxDecoration(
         gradient: LinearGradient(begin: Alignment.topLeft, colors: [
-          Colors.grey[800],
-          Colors.grey[700],
-          Colors.grey[800]
+          Colors.grey[600],
+          Colors.grey[500],
+          Colors.grey[600]
         ]),
-        borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
         child: FlatButton(
@@ -151,7 +153,11 @@ class _LPButtonState extends State<LPButton> {
             );
           },
           child: Text(
-              'SIGN-IN'
+              'SIGN-IN',
+            style: TextStyle(
+                color: Colors.white,
+              fontSize: 16,
+            ),
           ),
         ),
       ),

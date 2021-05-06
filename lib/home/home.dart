@@ -147,7 +147,7 @@ class _HomeState extends State<Home> {
                         },
                         padding: EdgeInsets.all(10),
                         child: Image.asset(
-                          'mobile.jpg',
+                          'mobile.png',
                           width: 130.0,
                           height: 130.0,
                         ),

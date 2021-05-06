@@ -1,5 +1,8 @@
 
 
+import 'package:e_com/home/booking.dart';
+import 'package:e_com/item/blackT.dart';
+import 'package:e_com/item/product.dart';
 import 'package:flutter/material.dart';
 
 class Clothing extends StatefulWidget {
@@ -35,7 +38,7 @@ class _ClothingState extends State<Clothing> {
                 onPressed: () async {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Clothing())
+                    MaterialPageRoute(builder: (context) => BlackT())
             );
           },
           padding: EdgeInsets.all(0),
@@ -77,7 +80,7 @@ class _ClothingState extends State<Clothing> {
                   onPressed: () async {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Clothing())
+                        MaterialPageRoute(builder: (context) => Product())
                     );
                   },
                   padding: EdgeInsets.all(0),
@@ -118,7 +121,7 @@ class _ClothingState extends State<Clothing> {
                   onPressed: () async {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Clothing())
+                        MaterialPageRoute(builder: (context) => Product())
                     );
                   },
                   padding: EdgeInsets.all(0),

@@ -49,7 +49,7 @@ flutter:
       - blackT.png
       - basketball.png
       - grocery.png
-      - mobile.jpg
+      - mobile.png
       - laptop.png
       - vegetable.png
       - watch.png
@@ -66,6 +66,7 @@ flutter:
       - onion.png
       - teaddy.png
       - product.jpg
+      - logo.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
